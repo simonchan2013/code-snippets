@@ -4,7 +4,7 @@
   "description": "back up my code snippets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/simonchan2013/code-snippets/issues"
   },
-  "homepage": "https://github.com/simonchan2013/code-snippets#readme"
+  "homepage": "https://github.com/simonchan2013/code-snippets#readme",
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
 }
